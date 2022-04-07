@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Palette+Mosaic&display=swap');
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+	text-align: justify;
+}
+
+.ejercicio {
+		color: #ffffff;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background-color: green;
+	background:
+       	  url(../img/flor1.png) left top no-repeat,
+       	  url(../img/flor3.png) right bottom no-repeat,
+       	  url(../img/flor2.png) 50% no-repeat;
+
+
+}
+
+.transparencia, .sombra, .degradado {
+		width: 960px;
+	height: 640px;
+	background-color: green;
+}
+
+.blur{
+	-webkit-filter: blur(3px);
+}
+.grays{
+	-webkit-filter: grayscale(2);
+}
+.border {
+	border-radius: 30px;
+}
+
+#contenedor2{
+	column-count: 2;
+	column-gap: 50px;
+	border-width: 2px;
+	column-rule: 2px solid #f4c0ff;
+}
+.degradado{ background: rgb(216,246,0);
+background: linear-gradient(0deg, rgba(216,246,0,1) 0%, rgba(39,255,0,1) 53%, rgba(0,255,136,1) 100%);
+}
+
+.transparencia{
+	background-color: rgba(216,246,0,0.50);
+}
+.sombra{
+	box-shadow: 10px 10px 0 #333333;
+}
